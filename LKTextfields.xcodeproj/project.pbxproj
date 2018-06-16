@@ -12,6 +12,8 @@
 		5BC91C0920D589F50089E306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC91C0720D589F50089E306 /* Main.storyboard */; };
 		5BC91C0B20D589F60089E306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC91C0A20D589F60089E306 /* Assets.xcassets */; };
 		5BC91C0E20D589F70089E306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC91C0C20D589F70089E306 /* LaunchScreen.storyboard */; };
+		5BC91C1620D58D480089E306 /* StatusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC91C1520D58D480089E306 /* StatusTextField.swift */; };
+		5BC91C1820D596920089E306 /* AnimaTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC91C1720D596920089E306 /* AnimaTF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5BC91C0A20D589F60089E306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC91C0D20D589F70089E306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BC91C0F20D589F70089E306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC91C1520D58D480089E306 /* StatusTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTextField.swift; sourceTree = "<group>"; };
+		5BC91C1720D596920089E306 /* AnimaTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaTF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				5BC91C0320D589F50089E306 /* AppDelegate.swift */,
 				5BC91C0520D589F50089E306 /* ViewController.swift */,
+				5BC91C1520D58D480089E306 /* StatusTextField.swift */,
+				5BC91C1720D596920089E306 /* AnimaTF.swift */,
 				5BC91C0720D589F50089E306 /* Main.storyboard */,
 				5BC91C0A20D589F60089E306 /* Assets.xcassets */,
 				5BC91C0C20D589F70089E306 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC91C1820D596920089E306 /* AnimaTF.swift in Sources */,
+				5BC91C1620D58D480089E306 /* StatusTextField.swift in Sources */,
 				5BC91C0620D589F50089E306 /* ViewController.swift in Sources */,
 				5BC91C0420D589F50089E306 /* AppDelegate.swift in Sources */,
 			);
