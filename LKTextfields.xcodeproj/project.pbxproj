@@ -14,6 +14,8 @@
 		5BC91C0E20D589F70089E306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC91C0C20D589F70089E306 /* LaunchScreen.storyboard */; };
 		5BC91C1620D58D480089E306 /* StatusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC91C1520D58D480089E306 /* StatusTextField.swift */; };
 		5BC91C1820D596920089E306 /* AnimaTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC91C1720D596920089E306 /* AnimaTF.swift */; };
+		5BF35AA820D5B428006A17A7 /* TextfieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF35AA720D5B428006A17A7 /* TextfieldEffects.swift */; };
+		5BF35AAA20D5B8CC006A17A7 /* LKTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF35AA920D5B8CC006A17A7 /* LKTextfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5BC91C0F20D589F70089E306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BC91C1520D58D480089E306 /* StatusTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTextField.swift; sourceTree = "<group>"; };
 		5BC91C1720D596920089E306 /* AnimaTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaTF.swift; sourceTree = "<group>"; };
+		5BF35AA720D5B428006A17A7 /* TextfieldEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldEffects.swift; sourceTree = "<group>"; };
+		5BF35AA920D5B8CC006A17A7 /* LKTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKTextfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				5BC91C0A20D589F60089E306 /* Assets.xcassets */,
 				5BC91C0C20D589F70089E306 /* LaunchScreen.storyboard */,
 				5BC91C0F20D589F70089E306 /* Info.plist */,
+				5BF35AA720D5B428006A17A7 /* TextfieldEffects.swift */,
+				5BF35AA920D5B8CC006A17A7 /* LKTextfield.swift */,
 			);
 			path = LKTextfields;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			files = (
 				5BC91C1820D596920089E306 /* AnimaTF.swift in Sources */,
 				5BC91C1620D58D480089E306 /* StatusTextField.swift in Sources */,
+				5BF35AAA20D5B8CC006A17A7 /* LKTextfield.swift in Sources */,
+				5BF35AA820D5B428006A17A7 /* TextfieldEffects.swift in Sources */,
 				5BC91C0620D589F50089E306 /* ViewController.swift in Sources */,
 				5BC91C0420D589F50089E306 /* AppDelegate.swift in Sources */,
 			);

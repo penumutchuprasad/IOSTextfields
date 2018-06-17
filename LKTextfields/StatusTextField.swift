@@ -14,26 +14,17 @@ import UIKit
 @IBDesignable
 public class StatusTextField: UITextField {
     
-    
     @IBInspectable  public var defaultColor: UIColor = .black {
-        
         didSet{
             
-            
         }
-        
     }
-    
     
     @IBInspectable public var activeColor: UIColor = .blue {
-        
         didSet{
             
-            
         }
-        
     }
-    
     
     lazy var bottomLine: CALayer = {
         let layer = CALayer()
@@ -52,7 +43,6 @@ public class StatusTextField: UITextField {
     public func showErrorHint() {
         rightImageView.image = #imageLiteral(resourceName: "wrng")
         self.rightView = rightImageView
-        
     }
     
     public func showCorrectHint() {
@@ -64,7 +54,6 @@ public class StatusTextField: UITextField {
         rightImageView.image = nil
         self.rightView = rightImageView
     }
-    
     
     public override func layoutSubviews() {
         super.layoutSubviews()
@@ -78,7 +67,6 @@ public class StatusTextField: UITextField {
         
         setupViews()
     }
-    
     
     public override func becomeFirstResponder() -> Bool {
         super.becomeFirstResponder()
@@ -111,13 +99,10 @@ public class StatusTextField: UITextField {
         rightImageView.bounds = CGRect(x: 0, y: 0, width: width, height: height)
     }
 
-    
-    
     convenience init() {
         self.init(frame: .zero)
         setupViews()
     }
-    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -128,7 +113,6 @@ public class StatusTextField: UITextField {
         super.init(coder: aDecoder)
         setupViews()
     }
-    
     
     func setupViews() {
         
@@ -141,7 +125,5 @@ public class StatusTextField: UITextField {
         self.layer.addSublayer(bottomLine)
         
     }
-    
-    
     
 }

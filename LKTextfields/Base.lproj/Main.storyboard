@@ -70,15 +70,42 @@
                                     <action selector="onEditingStsTF:" destination="BYZ-38-t0r" eventType="editingChanged" id="Xv5-A5-9tD"/>
                                 </connections>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="tfeffects" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Her-SZ-FQc" customClass="LKTextField" customModule="LKTextfields" customModuleProvider="target">
+                                <rect key="frame" x="24" y="251" width="327" height="45"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="4UY-kL-4Tz"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onEditingStsTF:" destination="BYZ-38-t0r" eventType="editingChanged" id="gJi-1r-MtL"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Her-SZ-FQc" firstAttribute="top" secondItem="bSH-R4-n3y" secondAttribute="bottom" constant="24" id="0rb-T8-Q2d"/>
                             <constraint firstItem="HlJ-lG-qwP" firstAttribute="top" secondItem="8Yv-zE-jUa" secondAttribute="bottom" constant="24" id="9wZ-5d-Vat"/>
                             <constraint firstItem="8Yv-zE-jUa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Gta-rV-MyJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bSH-R4-n3y" secondAttribute="trailing" constant="24" id="Lb0-Cu-jyd"/>
                             <constraint firstItem="HlJ-lG-qwP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="YTr-Hf-ce8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HlJ-lG-qwP" secondAttribute="trailing" constant="24" id="ddp-Mz-9Py"/>
                             <constraint firstItem="bSH-R4-n3y" firstAttribute="top" secondItem="HlJ-lG-qwP" secondAttribute="bottom" constant="24" id="eeW-oN-SQj"/>
+                            <constraint firstItem="Her-SZ-FQc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="fZR-mP-7jz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Her-SZ-FQc" secondAttribute="trailing" constant="24" id="i5X-xn-wPK"/>
                             <constraint firstItem="8Yv-zE-jUa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="qHx-MT-7Yj"/>
                             <constraint firstItem="bSH-R4-n3y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="wAa-rh-qgg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Yv-zE-jUa" secondAttribute="trailing" constant="24" id="z7I-6X-eSU"/>

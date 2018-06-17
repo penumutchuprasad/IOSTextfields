@@ -14,8 +14,6 @@ import UIKit
 @IBDesignable
 public class AnimaTF: UITextField {
     
-    
-    
     public lazy var textFieldImageView: UIImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.bounds.height * 0.75, height: self.bounds.height * 0.75))
     
     @IBInspectable var textFieldImage: UIImage? {
@@ -34,13 +32,13 @@ public class AnimaTF: UITextField {
             
         }
     }
-   
     
     @IBInspectable var imageWidth: NSNumber? {
         didSet {
             textFieldImageView.frame.size.width = CGFloat(exactly: imageWidth!)!
         }
     }
+    
     @IBInspectable var imageHeight: NSNumber? {
         didSet {
             textFieldImageView.frame.size.height = CGFloat(exactly: imageHeight!)!
@@ -48,7 +46,6 @@ public class AnimaTF: UITextField {
     }
     
     private var edgePadding: CGFloat!
-    
     
     //called after init, when the rect of the textfield is being drawing
     override public func draw(_ rect: CGRect) {
@@ -71,12 +68,10 @@ public class AnimaTF: UITextField {
             textFieldImageView.tintColor = self.tintColor
         }
         
-        
         //Remove placeholder text because the placeholder is an image
         self.placeholder = ""
         
     }
-    
 
     public override func textRect(forBounds bounds: CGRect) -> CGRect {
 
@@ -93,10 +88,6 @@ public class AnimaTF: UITextField {
 
     }
     
-
-    
-    
-    
     public override func layoutSubviews() {
         super.layoutSubviews()
         
@@ -105,15 +96,12 @@ public class AnimaTF: UITextField {
     public override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         
-        
     }
-    
     
     convenience init() {
         self.init(frame: .zero)
         setupViews()
     }
-    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -124,7 +112,6 @@ public class AnimaTF: UITextField {
         super.init(coder: aDecoder)
         setupViews()
     }
-    
     
     func setupViews() {
 //        self.backgroundColor = #colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1)
@@ -146,7 +133,6 @@ public class AnimaTF: UITextField {
         self.addTarget(self, action: #selector(didEndEditing), for: .editingDidEnd)
         
     }
-    
     
     @objc func didBeginEditing() {
         //on edit run animation
@@ -207,6 +193,4 @@ public class AnimaTF: UITextField {
         }
     }
 
-    
-    
 }
