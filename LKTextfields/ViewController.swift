@@ -95,6 +95,14 @@ class ViewController: UIViewController {
         
     }
     
+    
+    @IBAction func onCheckClick(_ sender: CheckBox) {
+        
+        sender.isChecked == true ? print("Check") : print("Clear")
+    }
+    
+    
+    
 }
 
 extension ViewController: UITextFieldDelegate {
