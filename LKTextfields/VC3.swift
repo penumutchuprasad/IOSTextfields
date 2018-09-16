@@ -44,13 +44,4 @@ class VC3: UIViewController {
 
     }
 
-   
-    
-    
-    
-    
-    
-    
-    
-
 }
